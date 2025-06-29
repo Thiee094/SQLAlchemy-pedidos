@@ -42,3 +42,4 @@ Projeto desenvolvido para praticar SQLAlchemy 2.0, com modelos `User` e `Pedido`
 "# sqlalchemy-bdpizzaria"  
 "# SQLAlchemy-pedidos"  
 "# SQLAlchemy-pedidos"  
+"# SQLAlchemy-pedidos"  
