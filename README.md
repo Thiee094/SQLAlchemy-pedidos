@@ -41,3 +41,4 @@ Projeto simples para gerenciar usuários e pedidos de uma pizzaria usando Python
 Projeto desenvolvido para praticar SQLAlchemy 2.0, com modelos `User` e `Pedido`, relacionamentos e operações básicas.
 "# sqlalchemy-bdpizzaria"  
 "# SQLAlchemy-pedidos"  
+"# SQLAlchemy-pedidos"  
