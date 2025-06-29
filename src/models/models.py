@@ -46,9 +46,6 @@ class Pedido(Base):
 
     bebida: Mapped[str] = mapped_column(String)
     
-# Criando as tabelas no banco de dados
-Base.metadata.create_all(db)
-
 # Criando um usuário e um pedido para testar no banco
 user1 = User(
     nome='Maria',
