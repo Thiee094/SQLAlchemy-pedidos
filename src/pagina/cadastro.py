@@ -29,7 +29,7 @@ while True:
             print('Ano cadastrado com sucesso')
             break
         else:
-            print('Ano inválido! Menor de 15 anos. Tente novamente.')
+            print('Ano inválido! Tente novamente.')
 
     except ValueError:
         print('Formato inválido! Use data de nascimento completo')
@@ -52,3 +52,5 @@ while True:
             print('Telefone invalido tente novamente')
     except ValueError:
         print('Telefone incorreto, tente novamente.')
+        
+        

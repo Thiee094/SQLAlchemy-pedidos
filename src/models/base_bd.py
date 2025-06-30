@@ -1,5 +1,4 @@
 """ Declarando os Módulos """
-
 from sqlalchemy import create_engine, String, Integer, ForeignKey
 from sqlalchemy.orm import DeclarativeBase, mapped_column, Mapped, relationship, sessionmaker
 
