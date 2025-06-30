@@ -47,23 +47,25 @@ class Pedido(Base):
     bebida: Mapped[str] = mapped_column(String)
     
 # Criando um usuário e um pedido para testar no banco
-user1 = User(
-    nome='Maria',
-    telefone=1234456989,
-    endereco='Rua Python 1039, Dona Juventude - São Paulo'
+from src.pagina.cadastro import nome, telefone, endereco
+
+user = User(
+    nome = nome,
+    telefone=telefone,
+    endereco = endereco
 )
 
 pedido1 = Pedido(
-    descricao='Calabresa com bastante cebola',
-    usuario=user1 , # associação direta
-    bebida = 'Guaraná zero'
+    descricao='Atum com Queijo',
+    usuario=user , # associação direta
+    bebida = 'Coca-Zero'
 )
     
 # Criando as tabelas no banco de dados
 Base.metadata.create_all(db)
 
 # Adicionado os dados no BD.
-session.add_all([user1, pedido1])
+session.add_all([user, pedido1])
 
 #ativando o ambiente 'o Famoso COMMIT'
 session.commit()

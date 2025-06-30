@@ -4,7 +4,6 @@ Projeto simples para gerenciar usuários e pedidos de uma pizzaria usando Python
 
 ## Estrutura do projeto
 
-- `app.py`: arquivo principal para rodar a aplicação.
 - `pizzaria.db`: banco de dados SQLite (não comitado).
 - `requirements.txt`: dependências do projeto.
 - `models/`: contém os modelos do banco de dados.
@@ -13,7 +12,7 @@ Projeto simples para gerenciar usuários e pedidos de uma pizzaria usando Python
 
 1. Clone o repositório:
    ```bash
-   git clone <url-do-repositorio>
+   git clone <https://github.com/Thiee094/sqlalchemy-bdpizzaria.git>
    cd sistema_pizzaria
    ```
 
@@ -39,7 +38,3 @@ Projeto simples para gerenciar usuários e pedidos de uma pizzaria usando Python
 # Detalhes
 
 Projeto desenvolvido para praticar SQLAlchemy 2.0, com modelos `User` e `Pedido`, relacionamentos e operações básicas.
-"# sqlalchemy-bdpizzaria"  
-"# SQLAlchemy-pedidos"  
-"# SQLAlchemy-pedidos"  
-"# SQLAlchemy-pedidos"  
